@@ -83,7 +83,7 @@ $(document).ready(function(){
 	var skinLogoDefault = 'assets/img/queenadmin-logo.png';
 
 	if(skin != null) {
-		$('head').append('<link rel="stylesheet" href="' + skin + '" type="text/css" />');
+$('head').append('<link rel="stylesheet" href="' + encodeURI(skin) + '" type="text/css" />');
 	}
 
 	if(skinLogo != null) {
