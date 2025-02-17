@@ -2,6 +2,7 @@ using System;
 using System.Data.SqlClient;
 using Microsoft.AspNetCore.Mvc;
 namespace InsecureBankNet.Controllers
+
 {
     public class LoginController : Controller
     {
